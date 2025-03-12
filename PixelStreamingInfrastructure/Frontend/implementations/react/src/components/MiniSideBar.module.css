@@ -1,0 +1,29 @@
+/* app/components/MiniSideBar.module.css */
+
+.miniSideBar {
+    
+    width: 60px;          /* or whatever narrow width you want */
+    background-color: #08192B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* center icons horizontally */
+    padding: 10vh 0 8px; /* 20px top padding, 8px bottom padding */
+  }
+  
+  .miniButton {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    margin: 8px 0;
+    cursor: pointer;
+    font-size: 0.9rem;
+    width: 40px;          /* narrower buttons or icons */
+    height: 40px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+  }
+  
+  .miniButton:hover {
+    background-color: #555;
+  }
+  
